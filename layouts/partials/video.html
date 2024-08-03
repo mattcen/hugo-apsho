@@ -19,6 +19,7 @@
                 {{ .comment1 }}<br/>{{ .comment2 }}
               </h2>
               <ul class="video-content-buttons">
+                {{ if .button1text }}
                 <li>
                   <a href="#" class="btn-platform">
                     <i>
@@ -48,6 +49,8 @@
                     </div>
                   </a>
                 </li>
+                {{ end }}
+                {{ if .button2text }}
                 <li>
                   <a href="#" class="btn-platform">
                     <i>
@@ -71,6 +74,7 @@
                     </div>
                   </a>
                 </li>
+                {{ end }}
               </ul>
             </div>
           </div>
