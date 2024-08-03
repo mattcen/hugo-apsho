@@ -21,8 +21,7 @@
                   <h5 class="mb-0">
                     <button
                       class="btn btn-link
-                      {{ $first := 0}}
-                      {{ if not (eq $index $first) }}
+                      {{ if not .show }}
                       collapsed
                       {{ end }}"
                       type="button"
