@@ -13,6 +13,23 @@
   {{ $stylex := resources.Get "scss/critical.scss" | resources.ToCSS | minify }}
   <link href="{{ $stylex.Permalink }}" rel="stylesheet" />
 
+
+  {{- with or .Description .Summary site.Params.description | plainify | htmlUnescape | chomp }}
+  <meta name="description" content="{{ . }}">
+  {{- end }}
+
+  {{- with or .Params.author site.Params.author | plainify | htmlUnescape | chomp }}
+  <meta name="author" content="{{ . }}">
+  {{- end }}
+
+  {{- with or .Params.author_fediverse .Params.author_fedi site.Params.author_fediverse site.Params.author_fedi | plainify | htmlUnescape | chomp }}
+  <meta name="fediverseCreator" content="{{ . }}">
+  {{- end }}
+
+  {{- template "_internal/schema.html" . }}
+  {{ template "_internal/opengraph.html" . -}}
+  {{- template "_internal/twitter_cards.html" . }}
+
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
