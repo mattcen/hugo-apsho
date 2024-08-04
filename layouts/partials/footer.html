@@ -50,7 +50,7 @@
           <img src="{{ .Site.Params.logo | absURL }}" alt="logo">
           <p>
             {{ .Site.Params.copyright1 }}
-              </br>
+              <br>
               {{ replace .Site.Params.copyright2   "{year}" now.Year | safeHTML }}
           </p>
           <ul class="footer-description-social">
