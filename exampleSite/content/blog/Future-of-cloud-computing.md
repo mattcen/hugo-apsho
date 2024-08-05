@@ -1,7 +1,7 @@
 ---
 title: "Future of cloud computing"
 date: 2020-09-03T20:18:07+06:00
-featureImage: images/blog/blog-post-1.jpg
+images: ["images/blog/blog-post-1.jpg"]
 author: Chicken Shorma
 authorThumb: images/client/client-1.png
 ---

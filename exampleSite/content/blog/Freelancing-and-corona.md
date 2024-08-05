@@ -1,7 +1,7 @@
 ---
 title: "Freelancing and corona"
 date: 2020-09-02T20:18:07+06:00
-featureImage: images/blog/blog-post-4.jpg
+images: ["images/blog/blog-post-4.jpg"]
 author: Juhair Islam
 authorThumb: images/client/client-3.png
 ---

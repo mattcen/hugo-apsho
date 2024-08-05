@@ -1,7 +1,7 @@
 ---
 title: "Announcing Our 2016 Roadmap"
 date: 2020-09-01T20:18:07+06:00
-featureImage: images/blog/blog-post-6.jpg
+images: ["images/blog/blog-post-6.jpg"]
 author: Jackson Wick
 authorThumb: images/client/client-1.png
 ---

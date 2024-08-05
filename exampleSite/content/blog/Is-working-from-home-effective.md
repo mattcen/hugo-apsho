@@ -1,7 +1,7 @@
 ---
 title: "Is working from home effective?"
 date: 2020-09-05T20:18:07+06:00
-featureImage: images/blog/blog-post-3.jpg
+images: ["images/blog/blog-post-3.jpg"]
 author: Filthy Frank
 authorThumb: images/client/client-2.png
 ---

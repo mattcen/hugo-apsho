@@ -1,7 +1,7 @@
 ---
 title: "Announcing Our 2019 Roadmap"
 date: 2020-09-01T12:59:58+06:00
-featureImage: images/blog/blog-post-3.jpg
+images: ["images/blog/blog-post-3.jpg"]
 author: Kausar Pial
 authorThumb: images/client/client-2.png
 ---
